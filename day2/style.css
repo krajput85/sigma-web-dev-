@@ -1,0 +1,206 @@
+body{
+    
+    .gradient-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -1;
+      background: linear-gradient(135deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+      background-size: 400% 400%;
+      animation: gradientShift 15s ease infinite
+    }
+}
+@keyframes gradientShift {
+      0%   { background-position: 0% 50%; }
+      50%  { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+td{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(207, 168, 239);
+}
+th{
+    border: 2px solid black ;
+}
+th{
+    background-color: aliceblue;
+}
+caption{
+    background-color: rgb(135, 20, 135);
+    text-align: center;
+    padding: 1px;
+    border:  4px solid rgb(217, 79, 208) ;
+    color: aliceblue;
+}
+
+h3{
+   
+    color: rgb(236, 230, 230);
+}
+a{
+    background-color: white;
+    color: rgb(98, 138, 197);
+}
+.pink{
+    padding: 5px;
+    background-color: white;
+    list-style: inside;
+    background-image: url(gaten.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: 0 px;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+    
+.pink1{
+    padding: 5px;
+    background-color: white;
+    list-style: inside;
+    background-image: url("will%20byer.jpg");
+ background-size: 50px 50px;
+      background-repeat: no-repeat;
+      background-position: 0 px;
+      padding-left: 30px; /* Space for bullet */
+      margin: 10px 0; 
+}
+
+
+a:visited{
+    color: black;
+}
+
+
+h3{ 
+text-align: center;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: italic;
+font-weight: 100;
+    background-color: rgb(135, 25, 135);
+    padding: 1px;
+    border:  4px solid rgb(217, 79, 208) ;
+    color: aliceblue;
+}
+
+*{
+    margin:1ch
+}
+form{
+    text-align: center;
+}
+.form1{
+    text-align: center;
+}
+.form2{
+    text-align: center;
+}
+.form5{
+text-align: center  ;
+}
+.form8{
+    border: 2px rgb(130, 194, 219);
+    background-color:  rgb(207, 168, 239) ;
+
+
+    color: aliceblue;
+}
+h4{
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+    outline: 2px solid black;
+    border: 2px solid rgb(250, 244, 244);
+    box-shadow: 5px 5px 5px rgb(207, 168, 239);
+}
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left1 {
+  width: 40%;
+}
+
+.right1 {
+    background-color: white;
+  width: 60%;
+  height: 25vh;
+  border: 2px solid black;
+  overflow: auto;
+  padding: 10px;
+  text-align: justify;
+}
+.caption{
+    color: white;
+   border: 2px solid purple;
+   padding: 1px;
+box-shadow: 5px 5px 5px;
+}
+.box{
+    color: white;
+    border: 4px solid rgb(217, 79, 208);
+    padding: 15px;
+    position: fixed;
+    height: 8px;
+    width: 150px;
+    background-color: rgb(135, 25, 135);
+
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+}
+
+
+.box5{
+    background-color: azure;
+    height: 70ch;
+    width: 50ch;
+     display: flex;
+     flex-direction: column;
+  justify-content: flex-start;  /* Center content horizontally */
+  align-items: center;      /* Center content vertically */
+  margin: 50px auto ;  
+   padding-top: 1ch ;      /* Center the box itself in page */
+  border-radius: 11px ;
+  p{
+    max-width: 30ch;
+    font-size: x-large;
+  }
+  .read button{
+    background-color: #8c93f9;
+    color: #0c1dd0;
+    border-radius: 11px;
+
+}
+
+.imgb img{
+    border-radius: 11px;
+}
+
+}
+.opacit{
+ transform: translateX(40vh) translateY(20vh);
+    opacity: 0.3;
+    transition: all 3s ease-in-out 1s;
+}
+.animation{
+    animation-name: animationSikho;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+}
+   @keyframes animationSikho {
+    from{
+        background-color: #7608a1;
+
+    }
+    to {
+        background-color: rgb(234, 164, 228);
+        transform: translateX(1000px);
+    }
+   }
